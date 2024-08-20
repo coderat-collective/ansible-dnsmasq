@@ -1,9 +1,7 @@
 ---
 galaxy_info:
   role_name: dnsmasq
-  namespace: triplepoint
-  author: Jonathan Hanson
-  description: The Dnsmasq DNS and DHCP server
+  namespace: coderat-collective
   license: MIT
   min_ansible_version: "2.9"
   platforms:

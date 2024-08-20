@@ -1,4 +1,5 @@
 # Intro
+Fork from https://github.com/triplepoint/ansible-dnsmasq
 Set up and install `dnsmasq`, to handle DHCP and DNS.
 
 ## Requirements
@@ -17,7 +18,7 @@ None.
 ## Example Playbook
     - hosts: whatever
       roles:
-        - triplepoint.dnsmasq
+        - dnsmasq
 
 ## Role Testing
 This role is tested with `molecule`, using `pipenv` to handle dependencies and the Python testing environment.
