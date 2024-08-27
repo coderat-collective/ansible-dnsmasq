@@ -65,3 +65,5 @@ dnsmasq_dhcp_options: []
   # - name: "option:ntp-server"
   #   value: "0.0.0.0"
   #   tags: [sometag]
+
+dnsmasq_log_file_path: /var/log/dnsmasq.log
