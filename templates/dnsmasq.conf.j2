@@ -92,3 +92,7 @@ dhcp-host={{ host.MAC_address }},{{ host.ip_address }},{{ host.name }}
 {% for dhcp_option in dnsmasq_dhcp_options %}
 dhcp-option=tag:{{ dhcp_option.tag }},{{ dhcp_option.name }},{{ dhcp_option.value }}
 {% endfor %}
+
+# Log requests
+ log-queries
+ log-facility={{ dnsmasq_log_file_path }}
